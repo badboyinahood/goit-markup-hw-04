@@ -8,6 +8,7 @@
 h1, h2, h3, p { margin: 0; }
 ul { margin: 0; padding: 0; list-style: none; }
 img { display: block; }
+a {text-decoration: none;}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -35,6 +36,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0; /* высота хедера формируется паддингами ссылок */
+  display: block;
 }
 .nav-link:hover,
 .nav-link:focus { color: #404bbf; }
@@ -74,8 +76,8 @@ body {
 
 /* HEADER */
 .page-header { border-bottom: 1px solid #e7e9fc; }
-.header-container { display: flex; }
-.main-nav { display: flex; align-items: center; }
+.header-container { display: flex; align-items: center;}
+.main-nav { display: flex; align-items: center; margin-right: auto;}
 .site-logo { margin-right: 76px; }
 .menu { display: flex; gap: 40px; }
 .contacts-list { display: flex; gap: 40px; }
@@ -92,6 +94,7 @@ body {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 48px;
 }
 .hero-button {
   display: block;
